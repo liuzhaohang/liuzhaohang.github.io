@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>往届资料共享平台</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>往届题目&资料共享平台</h1>
+        <p>助力下一届同学，共享学习资源</p>
+    </header>
+
+    <main>
+        <nav class="category-nav">
+            <button class="active" data-category="all">全部</button>
+            <button data-category="exam">考试题目</button>
+            <button data-category="notes">复习笔记</button>
+            <button data-category="ppt">课件PPT</button>
+        </nav>
+
+        <div class="resource-list">
+            <!-- 示例1：考试题目 -->
+            <div class="resource-item" data-category="exam">
+                <h3>【示例】2024年高数期末考试题</h3>
+                <p>适用专业：理工科 | 上传时间：2024-06</p>
+                <a href="#" class="download-btn">网盘下载（示例）</a>
+            </div>
+
+            <!-- 示例2：复习笔记 -->
+            <div class="resource-item" data-category="notes">
+                <h3>【示例】线代核心知识点总结</h3>
+                <p>适用专业：全专业 | 上传时间：2024-05</p>
+                <a href="files/示例文件.pdf" download class="download-btn">直接下载（示例）</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 资料共享平台 | 仅供学习使用</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
